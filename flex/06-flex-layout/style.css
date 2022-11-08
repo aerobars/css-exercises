@@ -25,3 +25,23 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*increase spacing between li items*/
+/*center search bar, icon, and buttons both inline and block*/
+/*move footer links to bottom*/
