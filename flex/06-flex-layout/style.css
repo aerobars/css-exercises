@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
@@ -16,6 +19,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 15px;
 }
 
 input {
@@ -28,13 +32,18 @@ input {
 
 ul {
   list-style: none;
-  padding: 0;
+  padding: 0 5px;
   display: flex;
   flex-direction: row;
 }
 
+li {
+  padding: 5px;
+}
+
 a {
   text-decoration: none;
+  color: gray;
 }
 
 .header {
@@ -42,6 +51,20 @@ a {
   justify-content: space-between;
 }
 
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eeeeee;
+}
+
+.content {
+  align-self: center;
+  border: solid white 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 /*increase spacing between li items*/
 /*center search bar, icon, and buttons both inline and block*/
 /*move footer links to bottom*/
